@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ServerName>Elesy.DualSource</ServerName>
+	<ServerAddress>localhost</ServerAddress>
+	<ProtTriggeringWaitingDelay>5000</ProtTriggeringWaitingDelay>
+	<PostfixSettings>
+		<HighEng>.HighEng</HighEng>
+		<LowEng>.LowEng</LowEng>
+		<HiHiLimit>.HiHi</HiHiLimit>
+		<HiLimit>.Hi</HiLimit>
+		<HighEngTR>.TR.HighEng.wvalue</HighEngTR>
+		<LowEngTR>.TR.LowEng.wvalue</LowEngTR>
+		<SetTMA>.TU.SetTMA.wvalue</SetTMA>
+		<SetHART>.TU.SetHART.wvalue</SetHART>
+	</PostfixSettings>
+	<LogicalPressurePairs>
+		<LogicalPressurePair ProtSourceInput="ak.vsmn.ucs.tz1.LCK_FIRST_LEVEL.state.N021.source.N002" ProtSourceOutput="ak.vsmn.ucs.tz1.LCK_FIRST_LEVEL.source.N021">
+			<LeftPoint TagName="ak.vsmn.r_len.LU_Rech.KP_409.SW_30.Pin" />
+			<RightPoint TagName="ak.vsmn.r_len.LU_Rech.KP_433_8.SW_31.Pin" />
+		</LogicalPressurePair>
+		<LogicalPressurePair ProtSourceInput="ak.vsmn.ucs.tz1.LCK_FIRST_LEVEL.state.N021.source.N002" ProtSourceOutput="ak.vsmn.ucs.tz1.LCK_FIRST_LEVEL.source.N021">
+			<LeftPoint TagName="ak.vsmn.r_len.LU_Rech.KP_409.SW_30.Pin" />
+			<RightPoint TagName="ak.vsmn.r_len.LU_Rech.KP_433_8.SW_31.Pin" />
+		</LogicalPressurePair>
+		<LogicalPressurePair ProtSourceInput="ak.vsmn.ucs.tz1.LCK_FIRST_LEVEL.state.N021.source.N002" ProtSourceOutput="ak.vsmn.ucs.tz1.LCK_FIRST_LEVEL.source.N021">
+			<LeftPoint TagName="ak.vsmn.r_len.LU_Rech.KP_409.SW_30.Pin" />
+			<RightPoint TagName="ak.vsmn.r_len.LU_Rech.KP_433_8.SW_31.Pin" />
+		</LogicalPressurePair>
+		<LogicalPressurePair ProtSourceInput="ak.vsmn.ucs.tz1.LCK_FIRST_LEVEL.state.N021.source.N002" ProtSourceOutput="ak.vsmn.ucs.tz1.LCK_FIRST_LEVEL.source.N021">
+			<LeftPoint TagName="ak.vsmn.r_len.LU_Rech.KP_409.SW_30.Pin" />
+			<RightPoint TagName="ak.vsmn.r_len.LU_Rech.KP_433_8.SW_31.Pin" />
+		</LogicalPressurePair>
+	</LogicalPressurePairs>
+</Settings>
